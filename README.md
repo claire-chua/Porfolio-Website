@@ -14,7 +14,7 @@ Lastly,the contact page contains personal details but additionally, a form for p
 
 # Sitemap:  
 (https://github.com/claire-chua/Portfolio-Website/files/11148279/Portfolio.Website.Sitemap.pdf)  
-[Portfolio Website Sitemap.pdf][Portfolio Website - Desktop.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148355/Portfolio.Website.-.Desktop.pdf) 
+[Portfolio Website - Desktop.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148368/Portfolio.Website.-.Desktop.pdf)  
 [Portfolio Website - Phone.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148351/Portfolio.Website.-.Phone.pdf)  
 [Portfolio Website - Tablet.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148353/Portfolio.Website.-.Tablet.pdf)
 
