@@ -1,0 +1,81 @@
+
+<!-- sets html document up -->
+<!DOCTYPE html>
+<!-- sets language to english -->
+<html lang ="en">
+<!-- sets unicode standard -->
+<meta charset = "UTF-8"/>
+<head>
+    <!-- sets website to scale with device -->
+    <meta name ="viewport" content="width=device-width", initial-scale="1.0"/>
+    <!-- sets title -->
+    <title>Claire Chua's Portfolio</title>
+    <!-- links stylesheet to html  -->
+    <link rel="stylesheet" href="Portfolio CSS.css">
+    <!-- applies favicon -->
+    <link rel="icon" type="image/x-icon" href="sprout (2).png">
+</head>
+
+<body class ="indexbodyPage">
+    <header>
+        <!-- links sprout icon to index.html, and description of logo if image fails to load -->
+        <a href ="./index.html">
+            <img src = "sprout (1).png" class="sproutLogo" alt ="sprout logo">
+        <b>Contact</b></a>
+    </header>
+    <!-- sets items in navbar in a list, names the items and links them to relevant pages-->
+    <div class="navbarParent">
+        <ul class="navbar">
+            <li id="nav-items"><a href="./about.html">about</a></li>
+            <li id="nav-items"><a href="./projects.html">projects</a></li>
+            <li id="nav-items"><a href="./blog.html">blog</a></li>
+            <li id="nav-items"><a href="./contact.html">contact</a></li>
+        </ul>
+        </div>
+
+    <div class="details">
+        <!-- bolds text, before the semi-colon -->
+        <p><b>Name:</b> Claire Chua</p>
+        <p><b>Email:</b> clair3.chua@gmail.com</p>
+        <p><b>Phone Number:</b>0449179562</p>
+    </div>
+    <div class="contactParent">
+        <i>Or leave your details behind:</i>
+        <!-- saves the information -->
+        <form method="post">
+        <!-- places the below divs in a box -->
+        <fieldset>
+        <!-- input type allows specific answers-->
+        <!-- email:requires an @ and additional letters after -->
+        <!-- phone number: only allows number -->
+        <!-- text: allows a textfield of 20 characters -->
+        <div class="nameInfo">Name: <input type ="text" required/></div>
+        <div class="emailInfo">Email:<input type="email" required/></div>
+        <div class="phonenumberInfo">Phone Number: <input type="tel"/></div>
+        <div class="message">Leave a message: <input type="text"></div>
+        <div class="submit"><input type ="submit"/></div>
+        </form>
+        </fieldset>
+    </div>
+    <footer>
+        
+            <div class="socials">
+                <!--  images of linkedin and github logos, which link to relevant sites and open pages in a new tab -->
+                <!-- description of logo if image fails to load -->
+                <a href="https://www.linkedin.com/in/claire-chua-3731001a5m" target="_blank">
+                    <img src="linkedin.png" class= "linkedin-link" alt = "linkedin logo">
+                </a>
+                <a href="https://github.com/claire-chua" target="_blank" class="github-link">
+                    <img src ="github.png" alt ="github icon">
+                </a>
+            </div>
+        
+    </footer>
+    
+  
+
+    
+
+
+</body>
+</html>

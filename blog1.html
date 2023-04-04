@@ -1,20 +1,29 @@
 
+<!-- sets html document up -->
 <!DOCTYPE html>
+<!-- sets language to english -->
 <html lang ="en">
+<!-- sets unicode standard -->
 <meta charset = "UTF-8"/>
 <head>
+    <!-- sets website to scale with device -->
     <meta name ="viewport" content="width=device-width", initial-scale="1.0"/>
+    <!-- sets title -->
     <title>Claire Chua's Portfolio</title>
+    <!-- links stylesheet to html  -->
     <link rel="stylesheet" href="Portfolio CSS.css">
+    <!-- applies favicon -->
     <link rel="icon" type="image/x-icon" href="sprout (2).png">
 </head>
-<body>
+
+<body class ="indexbodyPage">
     <header>
+        <!-- links sprout icon to index.html, and description of logo if image fails to load -->
         <a href ="./index.html">
             <img src = "sprout (1).png" class="sproutLogo" alt ="sprout logo">
-        <b>Blog 1</b></a>
+        Blog 1</a>
     </header>
-
+    <!-- sets items in navbar in a list, names the items and links them to relevant pages-->
     <div class="navbarParent">
         <ul class="navbar">
             <li id="nav-items"><a href="./about.html">about</a></li>
@@ -23,7 +32,6 @@
             <li id="nav-items"><a href="./contact.html">contact</a></li>
         </ul>
         </div>
-    
     <p class="blog1Content">
         Lorem ipsum dolor sit amet. Qui quas dolorum 33 sunt molestias et debitis laboriosam? Qui iure nisi sit deleniti voluptatum 33 magnam maiores aut alias nihil?
 
@@ -33,8 +41,10 @@ Et velit officia aut illum minus est impedit consequuntur eum nihil perferendis 
         
     </p>
     <footer>
-        <div class ="network">
+        
             <div class="socials">
+                <!--  images of linkedin and github logos, which link to relevant sites and open pages in a new tab -->
+                <!-- description of logo if image fails to load -->
                 <a href="https://www.linkedin.com" target="_blank">
                     <img src="linkedin.png" class= "linkedin-link" alt = "linkedin logo">
                 </a>
@@ -42,5 +52,5 @@ Et velit officia aut illum minus est impedit consequuntur eum nihil perferendis 
                     <img src ="github.png" alt ="github icon">
                 </a>
             </div>
-        </div>
+        
     </footer>

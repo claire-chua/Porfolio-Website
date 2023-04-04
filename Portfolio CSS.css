@@ -1,0 +1,425 @@
+
+/* Ensure the objects inside take up 100% of the available space and remove margins*/
+html {
+  margin: 0;
+  width:100%;
+  height: 100%;
+  
+}
+
+/* Ensure all items inside take up 100% available space */
+/* Set the font,background-image and background-color of items in the body unless overriden */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color:rgb(238, 232, 224);
+  background-image:none;
+  
+  
+
+}
+/* Fix position on top, and take up 100% of the width */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Positions the Welcome, I am Claire! text, changes font-size and allows elements to sit next to each other */
+.introduction {
+    display:inline-block;
+    padding-left:60%;
+    padding-top:20%;
+    font-size:150%;
+    
+  
+}
+/* outlines the properties of the typing animation */
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+
+
+/* removes list dots and changes space betwee the items relative to each other, and from the top of the screen */
+#nav-items {
+  list-style: none;
+  padding-right: 9vw;
+  padding-top: 5vh;
+}
+
+/* changes the colour of the hyperlink prior and after being clicked, and whilst hovered over with cursor and removes the underline*/
+a,
+a:link a:visited a:active {
+  color: black;
+  text-decoration: none;
+}
+/* specifies the properties of the hyperlink when hovered over */
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+
+/* places items in a row, and reverses the order they were places in the about.html document */
+/* sets text color */
+.aboutParent{
+    display:flex;
+    flex-direction:row-reverse;
+    color:seagreen;
+    
+    
+    
+}
+
+/* positions the description and indents the text at each new paragraph */
+.description{
+    text-indent:15%;
+    padding-top:20%;
+}
+
+/* sets the space between each paragraph and to the left of screen, and sets background color of the div */
+.personal,.study,.workHistory {
+    margin-bottom:10%;
+    padding-left:5%;
+    background-color:cornsilk;
+}
+
+/* sets position of the div to the left*/
+.resume{
+    
+    padding-right:3.5%;
+    
+    
+}
+
+
+/* sets position of the footer to the bottom, and to take up 100% of the width */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* sets the background image to cover the entire index and contact pages, and to prevent scrolling with rest of the page  */
+.indexbodyPage, .contactbodyPage{
+  background-image: url("stationary.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+/* set the social media logos position */
+.socials{
+    padding-bottom:4%;
+    padding-left:50%;
+    
+    
+}
+
+/* sets the individual github logo's position relative to the linkedin logo*/
+.github-link{
+    padding-left: 10%;
+}
+
+/* positions nav bar relative to the page and in a row */
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+    padding-left:50%;   
+  }
+/* positions image, and sets the size */
+  .selfPortrait{
+    padding-top: 13%;
+    padding-left: 10%;
+    width: 80%;
+  }
+  
+  /* sets items in a column,shrinks items to fit in container and allows scroll if needed in x-direction */
+   .projectParent{
+    display:flex;
+    flex-direction:column;
+    flex:shrink;
+    overflow-x:auto;
+    
+  }
+  /* sets images size and position in project.html*/
+  .project1Img, .project2Img, .project3Img {
+    padding-top:3%;
+    padding-left:20%;
+    height:auto;
+    max-width:60%;
+    
+
+  }
+
+  /* centers titles, increase space between title and description, and positions titles on project.html */
+  .project1Title, .project2Title, .project3Title{
+    padding-left:3%;
+    padding-right:5%;
+    line-height:10%;
+    text-align: center;
+    
+
+  }
+  /*positions descriptions on project.html and increaases spacing between sentences*/
+  .project1Description, .project2Description, .project3Description{
+    padding-left:3%;
+    padding-right:5%;
+    line-height:150%;
+  }
+
+  /* centers items in container, and place them in a column */
+  .blogParent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+  }
+/* sets containers width and height */
+  .blogImages{
+    width:50%;
+    height: 70%;
+  }
+/* sets images to take up 100% of div, and automates height to prevent warping. Plus, positions images relative to top of page*/
+  .blogImages img{
+    height: auto;
+    width: 100%;
+    padding-top: 0%;
+  }
+/* prevent any dots, as img links are in a list */
+  li{
+    list-style: none;
+  }
+
+  /* positions all blogs content and indents the paragraphs */
+  .blog1Content{
+    padding-top:18%;
+    padding-right:25%;
+    padding-left:25%;
+    text-indent:10%;
+  }
+
+ /* positions personal contact details */
+  .details {
+    padding-top:7%;
+    padding-left:45%;
+    
+
+  }
+  /* positions form for customer's details */
+  .contactParent{
+    padding-top:2%;
+    padding-left:45%;
+    padding-right:30%;
+    
+    
+  }
+
+  /* typing animation to occur from the start of text to end */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* changes the original properties for display width's of 440 px or lesser */
+@media only screen and (max-width: 440px) {
+  /* changes the background image, and sets it to cover the entire width, prevent scrolling with rest of items and hides any excess*/
+  .indexbodyPage, body {
+    background-image: url("homebgp.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+ /* sets position of logo */
+  .sproutLogo{
+    padding-top:5%;
+   
+  }
+/* positions the introduction and font size */
+  .introduction { 
+    padding-top:87%;
+    padding-left: 10%;
+    padding-bottom: 105%;
+    padding-right: 80%;
+    font-size: 100%;
+  }
+/* sets nav bar items to be in a column and sets position and size */
+  .navbar{
+    display:flex;
+    flex-direction:column;
+    padding-top:3%;
+    padding-left:5%;
+    font-size:small;
+    
+  }
+
+/* sets position of social media logo */
+  .socials{
+    padding-left:30%;
+  }
+/* sets items in the navbar to be fixed at the bottom of the page and font size to large */
+  .navbarParent{
+    bottom:5%;
+    position:fixed;
+    font-size: large;
+    
+  }
+/* sets spacing between words in nav-bar */
+  .navbar{
+   line-height:0%;
+  }
+
+/* sets items in about page in a column and adjusts width and position and width */
+  .aboutParent{
+    display:flex;
+    flex-direction:column;
+    padding-top:40%;
+    padding-left:8%;
+    width:200%;
+  }
+
+/* sets position of the description, font size and allows scrolling for overflow */
+  .description{
+    font-size: 70%;
+    overflow:auto;
+    padding-top:3%;
+    padding-left:0%;
+    padding-right:60%;
+  }
+/* sets text indent for only personal description */
+/* sets bottom spacing for personal and study paragraphs */
+    .personal{
+    text-indent:5%;
+    margin-bottom:7%;
+  }
+
+  .study{
+    text-indent:0%;
+    margin-bottom:7%;
+  }
+
+  .workHistory{
+    text-indent:0%;
+  }
+/* sets positions of resume div to resume and size */
+.resume{
+    font-size:70%;
+    padding:5% 0% 8% 5%;
+    
+}
+/* set'resume to take up 100% of the screen once opened */
+.resumeImg{
+    height:auto;
+    max-width:100%;
+
+}
+
+/* allows overflow, and scroll if necessary */
+  
+  .projectbodyPage{
+    overflow-x:auto;
+    
+    
+  }
+/* sets items within div to be in a column, shrinks anything that does not fit and allows overflow */
+  .projectParent{
+    display:flex;
+    flex-direction:column;
+    flex:shrink;
+    overflow-x:auto;
+    
+  }
+
+/* sets position of images and size */
+  .project1Img, .project2Img, .project3Img {
+   
+    width: 95%;
+    padding-left:17%;
+    height:auto;
+
+  }
+/* sets the first image relative to the top of the page */
+  .project1Img{
+    padding-top:39%;
+  }
+
+/* centers project titles and changes spaces between the title and description */
+  .project1Title, .project2Title, .project3Title{
+    line-height:150%;
+    text-align: center;
+    
+
+  }
+/* sets spacing on the left and right of paragraphs and spacing between sentences*/
+  .project1Description, .project2Description, .project3Description{
+    padding-left:3%;
+    padding-right:5%;
+    line-height:150%;
+  }
+/* sets items in container to be in a column, centers and adds top padding to it */
+  .blogParent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:30%;
+    
+  }
+/* sets individual image divs to be centered, take up 90% of container and a certain height and allows overflow scrolling */
+  .blogImages{
+    width:90%;
+    height: 1300px;
+    justify-content: center;
+    overflow:hidden;
+  }
+/* sets individual images width to take up 100% of container and have no top padding */
+  .blogImages img{
+    height: auto;
+    width: 100%;
+    padding-top: 0%;
+  }
+
+
+/* sets padding and text-indents for all blogs  */
+  .blog1Content{
+    padding-top:25%;
+    padding-right:25%;
+    padding-left:5%;
+    text-indent:10%;
+  }
+/* sets padding for personal details div */
+  
+  .details {
+    padding-top:28%;
+    padding-left:5%;
+
+  }
+/* sets padding for div to leave details behind */
+  .contactParent{
+    padding-left:4%;
+    padding-right:50%;
+  }
+/* sets divs in a row, due to code in html and allows overflow scrolling in x direction*/
+footer{
+    display:flex;
+    flex-direction:column;
+    overflow-x:auto;
+   
+}
+
+
+}

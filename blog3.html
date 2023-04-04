@@ -1,23 +1,36 @@
+<!-- sets html document up -->
 <!DOCTYPE html>
+<!-- sets language to english -->
 <html lang ="en">
+<!-- sets unicode standard -->
 <meta charset = "UTF-8"/>
 <head>
+    <!-- sets website to scale with device -->
     <meta name ="viewport" content="width=device-width", initial-scale="1.0"/>
+    <!-- sets title -->
     <title>Claire Chua's Portfolio</title>
+    <!-- links stylesheet to html  -->
     <link rel="stylesheet" href="Portfolio CSS.css">
+    <!-- applies favicon -->
     <link rel="icon" type="image/x-icon" href="sprout (2).png">
 </head>
-<body>
+
+<body class ="indexbodyPage">
     <header>
-        
-        
-        <div class="blog1logo"></div>
+        <!-- links sprout icon to index.html, and description of logo if image fails to load -->
         <a href ="./index.html">
-            <img src = "sprout (1).png" alt ="sprout logo">
-            </a><h3 class="blog1Description">Blog 3</h3>
-        
+            <img src = "sprout (1).png" class="sproutLogo" alt ="sprout logo">
+        Blog 3</a>
     </header>
-    
+    <!-- sets items in navbar in a list, names the items and links them to relevant pages-->
+    <div class="navbarParent">
+        <ul class="navbar">
+            <li id="nav-items"><a href="./about.html">about</a></li>
+            <li id="nav-items"><a href="./projects.html">projects</a></li>
+            <li id="nav-items"><a href="./blog.html">blog</a></li>
+            <li id="nav-items"><a href="./contact.html">contact</a></li>
+        </ul>
+        </div>
     <p class="blog1Content">
         Lorem ipsum dolor sit amet. Et reprehenderit neque quo sunt internos vel dolorem corporis et ullam enim a dolores minima in dolorum molestiae. Et incidunt enim At voluptatum doloremque ut fugiat accusantium ad nihil laboriosam ut doloremque quis.
 
@@ -27,6 +40,8 @@
     <footer>
         <div class ="network">
             <div class="socials">
+                <!--  images of linkedin and github logos, which link to relevant sites and open pages in a new tab -->
+                <!-- description of logo if image fails to load -->
                 <a href="https://www.linkedin.com" target="_blank">
                     <img src="linkedin.png" class= "linkedin-link" alt = "linkedin logo">
                 </a>

@@ -1,21 +1,28 @@
-
+<!-- sets html document up -->
 <!DOCTYPE html>
+<!-- sets language to english -->
 <html lang ="en">
+<!-- sets unicode standard -->
 <meta charset = "UTF-8"/>
 <head>
+    <!-- sets website to scale with device -->
     <meta name ="viewport" content="width=device-width", initial-scale="1.0"/>
+    <!-- sets title -->
     <title>Claire Chua's Portfolio</title>
+    <!-- links stylesheet to html  -->
     <link rel="stylesheet" href="Portfolio CSS.css">
+    <!-- applies favicon -->
     <link rel="icon" type="image/x-icon" href="sprout (2).png">
 </head>
-<body>
+
+<body class ="indexbodyPage">
     <header>
-       <a href ="./index.html">
+        <!-- links sprout icon to index.html, and description of logo if image fails to load -->
+        <a href ="./index.html">
             <img src = "sprout (1).png" class="sproutLogo" alt ="sprout logo">
         <b>About</b></a>
-        
     </header>
-    
+    <!-- sets items in navbar in a list, names the items and links them to relevant pages-->
     <div class="navbarParent">
         <ul class="navbar">
             <li id="nav-items"><a href="./about.html">about</a></li>
@@ -24,9 +31,9 @@
             <li id="nav-items"><a href="./contact.html">contact</a></li>
         </ul>
         </div>
-
     <div class="aboutParent">
-
+        <!-- adds image, and alters padding and height of image -->
+        <!-- a description will appear if image fails to load -->
         <img src ="clairePhoto.JPG" alt ="A photo of Claire Chua" style ="width:35%;
         height:20%;
         padding-top:2%;
@@ -35,7 +42,9 @@
         
         <div class ="description">
         <div class ="personal">
-            <b>Hi, I am Claire Chua.</b> I love cafe-hopping, reading up on the latest scientific discoveries and bouldering with friends in my spare time.
+            <!-- bolds text -->
+            <b>Hi, I am Claire Chua.</b> 
+                I love cafe-hopping, reading up on the latest scientific discoveries and bouldering with friends in my spare time.
 
         </div>
         <div class="study">
@@ -49,6 +58,7 @@
         
     
         <div class="resume">
+            <!-- links resume to words, and opens in a new tab -->
             <a href="Resume Mockup.png" class="resumeImg" target="_blank">Please click here for additional information</a>
         </div>
         
@@ -59,8 +69,10 @@
 
   
    
-        <div class ="network">
+        
             <div class="socials">
+                <!--  images of linkedin and github logos, which link to relevant sites and open pages in a new tab -->
+                <!-- description of logo if image fails to load -->
                 <a href="https://www.linkedin.com/in/claire-chua-3731001a5m" target="_blank">
                     <img src="linkedin.png" class= "linkedin-link" alt = "linkedin logo">
                 </a>
@@ -68,7 +80,7 @@
                     <img src ="github.png" alt ="github icon">
                 </a>
             </div>
-        </div>
+    
    
   
 

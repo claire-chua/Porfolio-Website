@@ -1,22 +1,36 @@
+<!-- sets html document up -->
 <!DOCTYPE html>
+<!-- sets language to english -->
 <html lang ="en">
+<!-- sets unicode standard -->
 <meta charset = "UTF-8"/>
 <head>
+    <!-- sets website to scale with device -->
     <meta name ="viewport" content="width=device-width", initial-scale="1.0"/>
+    <!-- sets title -->
     <title>Claire Chua's Portfolio</title>
+    <!-- links stylesheet to html  -->
     <link rel="stylesheet" href="Portfolio CSS.css">
+    <!-- applies favicon -->
     <link rel="icon" type="image/x-icon" href="sprout (2).png">
 </head>
-<body>
+
+<body class ="indexbodyPage">
     <header>
-        
-        
-        <div class="blog1logo"></div>
+        <!-- links sprout icon to index.html, and description of logo if image fails to load -->
         <a href ="./index.html">
-            <img src = "sprout (1).png" alt ="sprout logo">
-            </a><h3 class="blog1Description">Blog 5</h3>
-        
+            <img src = "sprout (1).png" class="sproutLogo" alt ="sprout logo">
+        Blog 5</a>
     </header>
+    <!-- sets items in navbar in a list, names the items and links them to relevant pages-->
+    <div class="navbarParent">
+        <ul class="navbar">
+            <li id="nav-items"><a href="./about.html">about</a></li>
+            <li id="nav-items"><a href="./projects.html">projects</a></li>
+            <li id="nav-items"><a href="./blog.html">blog</a></li>
+            <li id="nav-items"><a href="./contact.html">contact</a></li>
+        </ul>
+        </div>
     
     <p class="blog1Content">
         Lorem ipsum dolor sit amet. Ea beatae nobis id consequuntur officiis qui nihil dicta et dolorem velit. Ut autem laudantium eos error magni quo fugiat quis. Et totam eligendi ut cupiditate reiciendis et beatae deleniti.
@@ -24,8 +38,10 @@
         Quo dolor modi eos quod odio non dolor consequuntur. Ea rerum omnis ut dignissimos dolores sit consequatur doloremque ab nostrum quae et inventore dolorem ad laborum quibusdam.
     </p>
     <footer>
-        <div class ="network">
+        
             <div class="socials">
+                <!--  images of linkedin and github logos, which link to relevant sites and open pages in a new tab -->
+                <!-- description of logo if image fails to load -->
                 <a href="https://www.linkedin.com" target="_blank">
                     <img src="linkedin.png" class= "linkedin-link" alt = "linkedin logo">
                 </a>
@@ -33,5 +49,5 @@
                     <img src ="github.png" alt ="github icon">
                 </a>
             </div>
-        </div>
+    
     </footer>
