@@ -24,7 +24,7 @@ Lastly,the contact page contains personal details but additionally, a form for p
 ![Screenshot 2023-04-04 221534](https://user-images.githubusercontent.com/126572960/229790292-f29af098-068b-45ba-aad8-386e557c9282.png)  
 ![Screenshot 2023-04-04 221609](https://user-images.githubusercontent.com/126572960/229790325-6afb812a-5528-4fca-849f-24e410418441.png)  
 ![Screenshot 2023-04-04 221625](https://user-images.githubusercontent.com/126572960/229790389-65cd07e5-9726-408c-9988-b084ca687883.png)  
-![Screenshot 2023-04-04 221652](https://user-images.githubusercontent.com/126572960/229790409-087a5172-da82-4f44-9397-3c03ad8b131c.png)  
+![Screenshot 2023-04-04 221713](https://user-images.githubusercontent.com/126572960/229791116-3e683e20-a729-46b7-a18f-a834da71ddf9.png)  
 ![Screenshot 2023-04-04 221713](https://user-images.githubusercontent.com/126572960/229790462-45f28746-f715-406d-a741-fc14f1f80c1d.png)  
 ![Screenshot 2023-04-04 221726](https://user-images.githubusercontent.com/126572960/229790500-84351659-805f-4197-8d03-2029e66504b5.png)  
 ![Screenshot 2023-04-04 222153](https://user-images.githubusercontent.com/126572960/229790661-3ee4c3e2-39aa-4bef-a004-da89e7ecc14c.png)  
