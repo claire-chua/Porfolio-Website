@@ -14,9 +14,26 @@ Lastly,the contact page contains personal details but additionally, a form for p
 
 # Sitemap:  
 (https://github.com/claire-chua/Portfolio-Website/files/11148279/Portfolio.Website.Sitemap.pdf)  
+
+# Wireframes:
 [Portfolio Website - Desktop.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148368/Portfolio.Website.-.Desktop.pdf)  
 [Portfolio Website - Phone.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148351/Portfolio.Website.-.Phone.pdf)  
 [Portfolio Website - Tablet.pdf](https://github.com/claire-chua/Portfolio-Website/files/11148353/Portfolio.Website.-.Tablet.pdf)
+
+# Screenshots: 
+![Screenshot 2023-04-04 221534](https://user-images.githubusercontent.com/126572960/229790292-f29af098-068b-45ba-aad8-386e557c9282.png)  
+![Screenshot 2023-04-04 221609](https://user-images.githubusercontent.com/126572960/229790325-6afb812a-5528-4fca-849f-24e410418441.png)  
+![Screenshot 2023-04-04 221625](https://user-images.githubusercontent.com/126572960/229790389-65cd07e5-9726-408c-9988-b084ca687883.png)  
+![Screenshot 2023-04-04 221652](https://user-images.githubusercontent.com/126572960/229790409-087a5172-da82-4f44-9397-3c03ad8b131c.png)  
+![Screenshot 2023-04-04 221713](https://user-images.githubusercontent.com/126572960/229790462-45f28746-f715-406d-a741-fc14f1f80c1d.png)  
+![Screenshot 2023-04-04 221726](https://user-images.githubusercontent.com/126572960/229790500-84351659-805f-4197-8d03-2029e66504b5.png)  
+![Screenshot 2023-04-04 222142](https://user-images.githubusercontent.com/126572960/229790637-cdab694c-fbf7-41eb-bdfd-87f91a27d710.png)
+![Screenshot 2023-04-04 222153](https://user-images.githubusercontent.com/126572960/229790661-3ee4c3e2-39aa-4bef-a004-da89e7ecc14c.png)  
+![Screenshot 2023-04-04 222202](https://user-images.githubusercontent.com/126572960/229790689-b9d24206-bc55-46ed-b0c8-e3d769850d09.png)  
+![Screenshot 2023-04-04 222213](https://user-images.githubusercontent.com/126572960/229790726-424ff828-d80d-4316-9ff4-d1c4979c8783.png)  
+![Screenshot 2023-04-04 222228](https://user-images.githubusercontent.com/126572960/229790765-749923bb-51e6-4c87-bbde-337a1698e543.png)  
+
+
 
 # Target Audience:  
 Clients who could utilise similar skills as displayed throughout the website or experiences, as stated in the about page or resume.  
