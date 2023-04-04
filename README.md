@@ -1,5 +1,5 @@
 ### Portfolio-Website
-website-link: <clairechuaportfoliowebsite.netlify.app>  
+website-link: <https://clairechuaportfoliowebsite.netlify.app>  
 git-hub-link: <https://github.com/claire-chua/Portfolio-Website>  
 presentation-link:  
 
