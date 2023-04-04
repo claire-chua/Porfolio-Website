@@ -1,7 +1,7 @@
 ### Portfolio-Website
 website-link: <https://clairechuaportfoliowebsite.netlify.app>  
 git-hub-link: <https://github.com/claire-chua/Portfolio-Website>  
-presentation-link:  
+presentation-link: <https://youtu.be/ygZ2PiShTNQ>  
 
 # Purpose:  
 The purpose of the website is to showcase relevant skills and experience as an aspiring software developer, in an effort to reach out to potential clients.  
